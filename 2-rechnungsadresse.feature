@@ -28,3 +28,12 @@ Feature: Rechnungsadresse
         Given die Kundin hat alle Felder außer der Hausnummer eingegebenen
         When sie auf "weiter" klickt
         Then soll sie informiert werden, dass sie alle Felder ausfüllen muss
+    
+    Scenario: Kundin gibt invalide Daten ein
+        When die Kundin eine andere Rechnungsadresse eingibt
+        * Vorname und Nachname Sonderzeichen enthalten außer Bindestriche enthält
+        * Straße Sonderzeichen außer Bindestriche und Punkte enthält
+        * Hausnummer. Sonderzeichen enthält
+        * PLZ alles andere außer Zahlen enthält
+        * das @ bei der E-Mail-Adresse fehlt
+        Then soll eine Warnung angezeigt werden und der "weiter"-Button blockiert werden
