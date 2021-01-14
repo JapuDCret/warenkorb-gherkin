@@ -1,7 +1,6 @@
 Feature: Warenkorb
 
-    Der Warenkorb ist eine Übersicht über die gewählten Artikel. Hier sollen die Artikel samt Artikelnummer, Anzahl 
-    sowie deren Preise angezeigt werden. Der Warenkorb stellt den Einstieg der Software dar.
+    Der Warenkorb ist eine Übersicht über die gewählten Artikel. Hier sollen die Artikel samt Artikelnummer, Anzahl sowie deren Preise angezeigt werden. Der Warenkorb stellt den Einstieg der Software dar.
 
     Scenario: Kundin öffnet den Warenkorb
         When die Kundin den Warenkorb öffnet

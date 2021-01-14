@@ -1,7 +1,6 @@
 Feature: Bestellung abschließen
 
-    Die letzte Seite soll eine Übersicht über die zuvor eingegebenen Daten geben, bevor die Kundin die Bestellung 
-    abschließt.
+    Die letzte Seite soll eine Übersicht über die zuvor eingegebenen Daten geben, bevor die Kundin die Bestellung abschließt.
 
     Scenario: Kundin betritt die Seite
         When die Kundin die Seite betritt soll eine Bestellübersicht über die Artikel von Seite 1 angezeigt werden

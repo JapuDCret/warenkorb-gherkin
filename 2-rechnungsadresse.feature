@@ -1,7 +1,6 @@
 Feature: Rechnungsadresse
 
-    Die zweite Seite ist die Rechnungsadresse. Hier sollen die Nutzer ihre Rechnungsadresse eingeben können, welche die
-    Pflichtfelder Anrede, Vornamen, Nachnamen, Straße, Hausnummer, Postleitzahl sowie die E-Mail-Adresse umfassen.
+    Die zweite Seite ist die Rechnungsadresse. Hier sollen die Nutzer ihre Rechnungsadresse eingeben können, welche diePflichtfelder Anrede, Vornamen, Nachnamen, Straße, Hausnummer, Postleitzahl sowie die E-Mail-Adresse umfassen.
     Darüber hinaus gibt es noch das optionale Adresszusatz/Firmeninfo Feld.
 
     Scenario: Kundin kommt auf die Rechnungsadresse-Seite vom Warenkorb aus
