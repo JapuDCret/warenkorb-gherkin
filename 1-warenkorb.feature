@@ -8,6 +8,6 @@ Feature: Warenkorb
         And sie soll den Gesamtpreis für alle Artikel sehen
     
     Scenario: Kundin soll zur nächsten Seite wechseln können
-        Given die Kundin hat die gewählten Produkte prüft
+        Given die Kundin hat die gewählten Produkte geprüft
         When sie auf den "Bestellvorgang starten"-Button klickt
         Then soll sie auf die Seite "Rechnungsadresse" gelangen

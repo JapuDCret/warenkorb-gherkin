@@ -3,7 +3,7 @@ Feature: Lieferdaten
     Auf der dritten Seite sollen die Kunden die Lieferdaten eintragen können. Hier soll es die Möglichkeit geben, die Rechnungsadresse als Lieferadresse übernehmen zu können. Alternativ sollen die Nutzer die Pflichtfelder Anrede, Vornamen, Nachnamen, Straße, Hausnummer, Postleitzahl, Stadt eingeben können.
 
     Scenario: Kundin kommt auf die Lieferdaten-Seite von der Rechnungsadresse-Seite aus
-        When die Kundin zum ersten mal auf die Lieferdaten-Seite kommt
+        When die Kundin zum ersten Mal auf die Lieferdaten-Seite kommt
         Then soll das Häkchen bei "Gleiche Lieferdaten wie Rechnungsadresse" gesetzt sein
         And das gleiche Formular wie von der Rechnungsadresse-Seite erscheinen, mit den zuvor eingegebenen Daten
         And das Formular soll deaktiviert sein, solange das Häkchen gesetzt ist

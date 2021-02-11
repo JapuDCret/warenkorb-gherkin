@@ -28,7 +28,7 @@ Feature: Rechnungsadresse
         Then soll sie auf die Seite "Lieferdaten" gelangen
     
     Scenario: Kundin füllt nicht alle benötigten Felder aus und klickt auf "weiter"
-        Given die Kundin hat alle Felder außer der Hausnummer eingegebenen
+        Given die Kundin hat alle Felder außer bspw. der Hausnummer eingegeben
         When sie auf "weiter" klickt
         Then soll sie informiert werden, dass sie alle Felder ausfüllen muss
     
@@ -36,7 +36,7 @@ Feature: Rechnungsadresse
         When die Kundin eine andere Rechnungsadresse eingibt
         * Vorname und Nachname Sonderzeichen enthalten außer Bindestriche enthält
         * Straße Sonderzeichen außer Bindestriche und Punkte enthält
-        * Hausnummer. Sonderzeichen enthält
+        * Hausnummer Sonderzeichen enthält
         * PLZ alles andere außer Zahlen enthält
         * Stadt keine deutsche Stadt ist
         * das @ bei der E-Mail-Adresse fehlt
